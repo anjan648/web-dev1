@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Html forms</h1>
+    <div>
+        <lable for="email">Email Address</lable><br>
+        <input type="email" name="email" placeholder="email address">
+    </div>
+    <div>
+        <label for="fname" >Full Name</label><br>
+        <input type="text" name="fname" placeholder="First name">
+        <input type="text" name="lastname" placeholder="Last name">
+    </div>
+    <div>
+        <label for="address" >Address</label><br>
+        <input type="text" name="address" placeholder="streetaddress"><br>
+        <input type="text" name="address" placeholder="office,suite,Apt">
+    </div>
+    <div>
+        <label for="city">City</label><br>
+        <input type="text" name="city" >
+        <select name="state" id="state">
+        <option value="Banglore">Banglore</option>
+        <option value="delhli">Delhi</option>
+        <option value="Andhra pradesh">Andhra pradesh</option>
+    </select>
+    
+    <input type="number" placeholder="zip">
+    </div>
+    <div>
+        <label for="">What radio technology are you using?</label><br>
+        <input type="checkbox" name="net" value="2G"> 2G
+        <input type="checkbox" name="net-2" value="3G"> 3G
+        <input type="checkbox" name="net-3" value="4G"> 4G
+
+        <input type="checkbox" name="net-4" value="5G"> 5G
+    </div>
+    <div>
+        <label for="data-use">How data do you use?</label>
+        <input type="radio" name="net">0-50MB
+        <input type="radio" name="net">50-100MB
+        <input type="radio" name="net">100-150MB
+        <input type="radio" name="net">150-200MB
+        <!-- name should be same in name for radio button >-->
+    </div>
+    <label for="subscription">subscription Duration</label><br>
+    <input type="date" name="date">
+    <input type="month" name="month">
+    <label for="to">To</label>
+    <input type="date" name="date">
+    <input type="month" name="month">
+    <div>
+        <input type="reset" value="reset-data">
+        <input type="submit" value="submit">
+    </div>
+</body>
+</html>
